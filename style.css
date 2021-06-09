@@ -101,7 +101,7 @@ form.example::after {
 marque {
 	  background-color: #333;
   overflow: hidden;
-	color: darkgoldenrod;
+	 background-image: url(background.jpg);
 }
 
 #heading { /* this is the ID selector */
