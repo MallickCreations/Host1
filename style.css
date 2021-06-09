@@ -51,7 +51,11 @@ form.example button {
 }
 
 form.example button:hover {
-  background: #0b7dda;
+  background: rgb(10,100,0);
+}
+
+form.example:hover {
+  background: wheat;
 }
 
 /* Clear floats */
