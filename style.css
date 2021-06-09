@@ -141,7 +141,7 @@ marque {
 }
 #marq {
 	background-image: url(background.jpg);
-	color:;
+	color:rgb(10 ,20 ,20);
 	font-size: 20px;
 }
 #footer {
