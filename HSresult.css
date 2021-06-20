@@ -45,7 +45,6 @@ div {
 }
 h2{
     font-size:auto;
-    background-color: rgb(147, 245, 191);
     color: black;
     background-color: #eee0b4;
     width: 80%;
@@ -53,6 +52,15 @@ h2{
     overflow-x: hidden;
 }
 #given12{
-  text-indent: 40%;
+  text-indent: 30%;
 }
 
+#guide{
+  font-size:auto;
+  text-align: center;
+  color: black;
+  background-color: #eee0b4;
+  width: 100%;
+  justify-content: center;
+  overflow-x: hidden;
+}
