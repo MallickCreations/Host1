@@ -3,13 +3,14 @@ body{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/colortheory.jpg");
     width: 100%;
     position: relative;
+    overflow-x :hidden;
     
 }
 label{
     font-size: larger;
     color: rgb(0, 5, 75);
 }
-input[type=text], select {
+input[type=text],[type=number], select {
   width: 60%;
   align-content: center;
   text-align: center;
