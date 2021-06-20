@@ -3,13 +3,46 @@ body{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/colortheory.jpg");
     width: 100%;
     position: relative;
-    overflow-x :hidden;
+    overflow-x: hidden;
+    font-family: 'IBM Plex Serif', serif,sans-serif;
     
+}
+function{
+  font-weight: 600;
+}
+ol {
+  list-style-type:none ;
+}
+ol li {
+  list-style-type: none;
+}
+#div1{
+  background-color: rgb(143, 236, 158);
+  display: flex;
+  justify-content:center;
+  background-image: url("https://image.freepik.com/free-vector/natural-background-with-bokeh-effect_88138-68.jpg");
+  width: 80%;
+  border: 2px solid rgb(36, 2, 63);
+  border-radius: 20px;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#div2 {
+  background-color: rgb(149, 204, 236);
+  display: flex;
+  justify-content:center;
+  background-image: url("https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  width: 80%;
+  border: 2px solid rgb(36, 2, 63);
+  border-radius: 20px;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 label{
     font-size: larger;
-    color: rgb(0, 5, 75);
-}
+    color: black ;
+    font-style: bold;
+  }
 input[type=text],[type=number], select {
   width: 60%;
   align-content: center;
@@ -51,6 +84,10 @@ h2{
     width: 80%;
     justify-content: center;
     overflow-x: hidden;
+    width: 80%;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3px solid rgba(117, 100, 0, 0.089);
 }
 #given12{
   text-indent: 30%;
@@ -61,7 +98,17 @@ h2{
   text-align: center;
   color: black;
   background-color: #eee0b4;
-  width: 100%;
+  width: 80%;
   justify-content: center;
   overflow-x: hidden;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 3px solid rgba(5, 4, 0, 0.089);
+}
+.end{
+  background-color: #c7ae23;
+  width: 80%;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 3px solid rgba(5, 4, 0, 0.089);
 }
