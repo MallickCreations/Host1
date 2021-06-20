@@ -15,33 +15,34 @@
   <function  >
     <center>
       <label>Your Subject Name for Calculation (H.S.)</label><br>
-      <input id="Subject"type=text placeholder="Bengali,History,Math,Economics.....">
-  <br><br><label>Enter Your Obtain Marks in the Subject : Class XI (2020)<br></label>
-  <input id="SubjectMarks"type="number" min="0" max="100" placeholder="Enter Obtain Marks XI (max no= 70 or 80)">
+      <input id="Subject"type="text" placeholder="Bengali,History,Math,Economics.....">
+  <br><br><label>Marks of the Specific Subject <br>: Class XI Theory (Year 2020)<br></label>
+  <input id="SubjectMarks"type="number" min="0"max="100" placeholder="Max 70 for Lab.Subject , Max  80  for Project-Subject">
 
   <h3 id="from11"></h3>
 
 <br>
-
-<label>Your Obtain Marks in Lab. Work  or Project : Class XII (2021)<br></label>
-<input id="optain12"type="number" min="0" max="100"  placeholder="Enter Your Assumption (max no= 30 or 20)"><br><br>
-
-<label>Select Full Marks of that Project or Lab. Work <br>: Class XII ( 30 or 20 )<br></label>
-<select id="given12"type="text" min="0" max="100" name="option">
+<label>Select Full Marks of that Project or Lab. Work <br>: Class XII ( 30 or 20 )🧐<br></label>
+<select id="given12"type=text name="option">
   <option value="20">    Project Work (Out of 20)</option>
-  <option value="30">Lab. Work (Out of 30)</option>
+  <option value="30">Lab. Practical (Out of 30)</option>
   
 </select>
 <br><br>
 
-<br><br><label>Madhyamik Exam 2019 ( Enter Marks of Top 4)</label><br>
-<input id="Best1"type="number" min="0" max="100"  placeholder="Madhyamik Top 1">
+<label>Marks of the Specific Subject : Class XII Lab.Practical or Project  (Year 2021)🧐🧐<br></label>
+<input id="optain12"type="number" min="0"max="100"  placeholder="Max 30 for Lab.Practical , Max 20 for Project"><br><br>
+
+
+
+<br><br><label>Madhyamik Exam 2019 <br>( Enter Marks of Top 4 Subjects)🧐</label><br>
+<input id="Best1"type="number" min="0"max="400"  placeholder= "Subject 1  :  Outof 100">
 <br>
-<input id="Best2"type="number" min="0" max="100"  placeholder="Madhyamik Top 2">
+<input id="Best2"type="number" min="0"max="100"  placeholder="Subject 2  :  Outof 100">
 <br>
-<input id="Best3"type="number" min="0" max="100"  placeholder="Madhyamik Top 3">
+<input id="Best3"type="number" min="0"max="100"  placeholder="Subject 3  :  Outof 100">
 <br>
-<input id="Best4"type="number" min="0" max="100"  placeholder="Madhyamik Top 4">
+<input id="Best4"type="number" min="0"max="100"  placeholder="Subject 2  :  Outof 100">
 <br>
 
 <h3 id="from10"></h3>
@@ -60,67 +61,87 @@
 </center>
 <br><br>
 
-<h2 id="guide">Quick Guide👇</h2>
-<h4>In Higher Secondary Exam we have :
- <ol class="guideLab">
-  
-  <li><h3><u>Only for Lab. Work Oriented Subjects</u><br><br> (Full Marks 30 +70=100) :</h3> (For Example : PHYSICS , Chemistry,Biology,Com-Application & Science, Geography.... )</li>
-  <br>
- <u>If you want to calculate PHYSICS marks for HS :</u>
- <br><br><ul class="lab">
-   
-   <li>Enter PHYSICS in : (Bengali,History,Math,Economics.....) </li>
-   <br><li>For PHYSICS : 30+70=100 ; If you get 50 out of 70<br> [  Enter 50 in : Enter Obtain Marks XI (max no= 70 or 80)   ]</li>
-   <br><li>If you get (assume)  28 marks in Pysics Lab. Work <br>[ Enter 28 in : Enter Your Assumption (max no= 30)]</li>
-   <br><li>As Full Marks of PHYSICS Lab. Work is 30<br>[  Select 30 from : Select Full Marks of that Project or Lab. Work (20 or 30)  ]</li>
-   <br><li><u>Madhyamik : If your</u> <br><br><ul class="best">
-    <li>Best 1 =   60 / 100 (Enter 60 in Madhyamik Best1)</li>
-    <li>Best 2 =   55 / 100 (Enter 55 in Madhyamik Best1)</li>
-    <li>Best 3 =   45 / 100 (Enter 45 in Madhyamik Best1)</li>
-    <li>Best 4 =   40 / 100 (Enter 40 in Madhyamik Best1)</li>
-    <li>Your Total Marks of top 4 will be = 200 / 400</li>
-  </ul>
-  </li>
-  <br><li>Press Submit Button for know ultimate Marks in Pysics<br>[ In this case 72 ,as <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>H.S. Boards Official Notice</strong></a> obtains ]  </li>
-  <br><li>Change Subject and Obtain Marks and press SUBMIT for new one.</li>
- </ul>
+<h2 id="guide">👇 Quick Guide 👇</h2>
 
-   <br><br><br><br><br>
+<div id="div1">
 
- <li><h3><u>Project Work Oriented Subjects : </u><br> (Full Marks 20+80=100) :</h3>(As Bengali,English,History,Math,Economics...)</li>
+  <h4 id="dir1"><strong>In Higher Secondary Exam we have 2 Number Division Catagories:</strong>
+   <ol class="guideLab">
+    
+    <li><h3>👉 1. <u>Only for Lab. Work Oriented Subjects</u><br><br> (Full Marks 30 +70=100) :</h3> (For Example : PHYSICS , Chemistry,Biology,Com-Application & Science, Geography.... )</li>
+    <br>
+   <u>If you want to calculate PHYSICS marks for HS :</u>
+   <br><br><ul class="lab">
+     
+     <li>( I ). Enter PHYSICS in : (Bengali,History,Math,Economics.....) </li>
+     <br><li>( II ). For PHYSICS : 30+70=100 ; If you get 50 out of 70<br> [  Enter 50 in : "Max 70 for Lab.Subject , Max  80  for Project-Subject"   ]</li>
+     <br><li>( III ). If you get (assume)  28 marks in Pysics Lab. Work <br>[ Enter 28 in : Max 30 for Lab.Practical , Max 20 for Project"]</li>
+     <br><li>( IV ). As Full Marks of PHYSICS Lab. Work is 30<br>[  Select 30 from : Select Full Marks of that Project or Lab. Work
+  : Class XII ( 30 or 20 )  ]</li>
+     <br><li>( V ). <u>Madhyamik : If your</u> <br><br><ul class="best">
+      <li>( a ). <u>Highest Paper of Madhyamik</u> =   60 / 100 (Enter 60 in : "Subject 1  :  Outof 100")</li>
+      <li>( b ). <u>2nd Highest Paper of Madhyamik</u> =   55 / 100 (Enter 55 in : "Subject 2  :  Outof 100")</li>
+      <li>( c ). <u>3rd Highest Paper of Madhyamik</u> =   45 / 100 (Enter 45 in : "Subject 3  :  Outof 100")</li>
+      <li>( d ). <u>4th Highest Paper of Madhyamik</u> =   40 / 100 (Enter 40 in : "Subject 4  :  Outof 100")</li>
+      <li>( e ). Your Total Marks of top 4 will be = 200 / 400</li>
+    </ul>
+    </li>
+    <br><li>( VI ). Press Submit Button for know ultimate Marks in Pysics<br>[ In this case 72 ,as <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>H.S. Boards Official Notice</strong></a> obtains ]  </li>
+    <br><li>( VII ). Change Subject and Obtain Marks and press SUBMIT for new one.</li><br>
 
-  <br>
- <u>If you want to calculate ENGLISH marks in HS :</u>
- <br><br><ul class="lab">
-   
-   <li>Enter ENGLISH in : (Bengali,History,Math,Economics.....) </li>
-   <br><li>For ENGLISH : 20+80=100 ; If you get 50 out of 80<br> [  Enter 50 in : Enter Obtain Marks XI (max no= 70 or 80)   ]</li>
-   <br><li>If you get (assume)  17 marks in ENGLISH Project Work <br>[ Enter 17 in : Enter Your Assumption (max no= 30 or 20)]</li>
-   <br><li>As Full Marks of ENGLISH Practical Work is 20<br>[  Select 20 from : Select Full Marks of that Project or Lab. Work (20 or 30)  ]</li>
-   <br><li><u>Madhyamik : If your</u><br><br><ul class="best">
-    <li>Best 1 =   60 / 100 (Enter 60 in Madhyamik Best1)</li>
-    <li>Best 2 =   55 / 100 (Enter 55 in Madhyamik Best1)</li>
-    <li>Best 3 =   45 / 100 (Enter 45 in Madhyamik Best1)</li>
-    <li>Best 4 =   40 / 100 (Enter 40 in Madhyamik Best1)</li>
-    <li>Your Total Marks of top 4 will be = 200 / 400</li>
-  </ul>
-  </li>
-  <br><li>Press Submit Button for know ultimate Marks in Pysics<br>[ In this case 63 , as <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>H.S. Board Official Method</strong></a> says ]  </li>
-  <br><li>Change Subject and Obtain Marks and press SUBMIT for new one.</li>
-</ol>
-</h4>
+    <li>( VII ). 
+      <u> NOTE :</u><br> <br>If Your Result (Class XI) is Gven in Hundred.<br>Then at 1st Substract Project or Lab. Practical Number form that.<br>Then Follow these Methods or you may get wrong answers.<br>(For Example, If you got 70 out of 100 in ENGLISH ,<br>then your theory number will be, 70-20=50 ,use this way if you find any problems.)</li>
+    </ul>
+   </ul>
+  </ol>
+  </div>
+
+
+
+<br><br><div id="div2">
+  <h4 id="dir1"><strong>In Higher Secondary Exam we have 2 Number Division Catagories:</strong>
+    <ol class="guideLab">
+     
+     <li><h3>👉 1. <u>Only for Project Work Oriented Subjects :</u><br><br> (Full Marks 30 +70=100) :</h3> (For Example : Bengali , ENGLISH , History , Math , Economics... )</li>
+     <br>
+    <u>If you want to calculate ENGLISH marks for HS :</u>
+    <br><br><ul class="lab">
+      
+      <li>( I ). Enter ENGLISH in : (Bengali,History,Math,Economics.....) </li>
+      <br><li>( II ). For ENGLISH : 20+80=100 ; If you get 50 out of 80<br> [  Enter 50 in : "Max 70 for Lab.Subject , Max  80  for Project-Subject"   ]</li>
+      <br><li>( III ). If you get (assume)  17 marks in ENGLISH Project Work <br>[ Enter 17 in : Max 30 for Lab.Practical , Max 20 for Project"]</li>
+      <br><li>( IV ). As Full Marks of ENGLISH Project Work is 20<br>[  Select 20 from : "Select Full Marks of that Project or Lab. Work
+: Class XII ( 30 or 20 )"  ]</li>
+      <br><li>( V ). <u>Madhyamik : If your</u> <br><br><ul class="best">
+       <li>( a ). <u>Highest Paper of Madhyamik</u> =   60 / 100 (Enter 60 in : "Subject 1  :  Outof 100")
+      </li>
+       <li>( b ). <u>2nd Highest Paper of Madhyamik</u> =   55 / 100 (Enter 55 in : "Subject 1  :  Outof 100")</li>
+       <li>( c ). <u>3rd Highest Paper of Madhyamik</u> =   45 / 100 (Enter 45 in : "Subject 1  :  Outof 100")</li>
+       <li>( d ). <u>4th Highest Paper of Madhyamik</u> =   40 / 100 (Enter 40 in : "Subject 1  :  Outof 100")</li>
+       <li>( e ). Your Total Marks of top 4 will be = 200 / 400</li>
+     </ul>
+     </li>
+     <br><li>( VI ). Press Submit Button for know ultimate Marks in Pysics<br>[ In this case 63 ,as following  <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>Method of H.S. Boards Official Notice </strong></a>  ]  </li>
+     <br><li>( VII ). Change Subject and Obtain Marks and press SUBMIT for new one.</li>
+    <br><li>( VII ). 
+      <u> NOTE :</u> <br><br>If Your Result (Class XI) is Gven in Hundred.<br>Then at 1st Substract Project or Lab. Practical Number form that.<br>Then Follow these Methods or you may get wrong answers.<br>(For Example, If you got 70 out of 100 in ENGLISH ,<br>then your theory number will be, 70-20=50 ,use this way if you find any problems.)</li>
+    </ul>
+   </ol>
+</div>
+<br><br>
+
 <center>
-  <h4>
 
-  </h4>
+  We make an approach to calculate Higher Secondary (HS) result of West Bengal board easily.This is not a government or official site , we followed the <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>METHOD</strong></a> provided by the West Bengal Board officially.Please inform us incase of any improvement ,issue,qeary or report. We do not take any responsibility for your result.WE just tried to help you, to guess your probable marks in H.S. 2021 & in each of the subjects.
 </center>
-
-
+<br><br>
 <center>
-
-  We make an approach to calculate Higher Secondary (HS) result of West Bengal board easily.This is not a government or official site , we follow the <a href="https://wbchse.nic.in//notification/note18062021.pdf"><strong>METHOD</strong></a> provided by the West Bengal Board officially.Please inform us incase of any improvement ,issue,qeary or report. We do not take any responsibility for your result.WE help you to guess your probable marks in each subject.
+  <h4 class="end">
+    😇 BEST WISHES FOR YOUR FUTURE 😇
+  </h4>
 </center>
 
   <script src="HSresult.js"></script>
 </body>
 </html>
+
